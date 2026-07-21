@@ -160,10 +160,3 @@ middleware.ts                 → refreshes the Supabase session on every reques
 supabase/migrations/0001_init.sql → full schema + RLS policies + seed courses
 ```
 
-## 6. Notes on the two roles
-
-The brief mentioned three roles (Student / Admin / Super Admin) in one version and two
-(Student / CR-Admin) in the revision — this build uses **two roles** (`student`, `admin`)
-since that's what the more detailed, final spec asked for. Adding a `super_admin` later is a
-one-line enum change (`alter type user_role add value 'super_admin'`) plus a couple of RLS
-policy tweaks if you want that tier back.
