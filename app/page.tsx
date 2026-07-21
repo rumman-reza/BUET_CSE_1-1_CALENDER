@@ -48,7 +48,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-[1600px] px-4 sm:px-6 py-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div>
             <p className="inline-flex items-center gap-1.5 text-xs font-semibold text-accent uppercase tracking-wide">
-              <Sparkles className="h-3.5 w-3.5" /> Level-1 Term-1 · 2029 Batch
+              <Sparkles className="h-3.5 w-3.5" /> Level-1 Term-1 · '25 batch
             </p>
             <h1 className="font-display text-2xl sm:text-3xl font-semibold mt-1">
               Every CT, quiz and deadline — in one place.
