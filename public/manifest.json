@@ -1,0 +1,13 @@
+{
+  "name": "BUET CSE 1-1 Academic Calendar",
+  "short_name": "CSE 1-1 Calendar",
+  "description": "Single source of truth for BUET CSE Level-1 Term-1 academic events.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B1120",
+  "theme_color": "#0f5132",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
